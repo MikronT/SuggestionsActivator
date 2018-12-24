@@ -10,7 +10,7 @@ echo.^(^?^) Ви впевнені^? ^(Enter або закрийте вікно^)
 pause>nul
 
 call :logo
-echo.^(^!^) Запуск [ADSI] Suggestions Activator...
+echo.^(^!^) Запуск [MikronT] Suggestions Activator...
 >nul timeout /nobreak /t 1
 
 
@@ -44,10 +44,10 @@ exit
 
 
 :logo
-title [ADSI] Suggestions Activator
+title [MikronT] Suggestions Activator
 color 0b
 cls
 echo.
-echo.    [ADSI] ==^> Suggestions Activator
+echo.    [MikronT] ==^> Suggestions Activator
 echo.
 exit /b
