@@ -23,12 +23,11 @@ call :logo
 set key1=no
 set key2=00000000
 
-:question
-set /p answer=^(^?^) Turn on suggestions^? ^(y/n^) ^> 
-if "%answer%" == "y" (
+choice /c yn /n /m "(>) Turn on suggestions? (Y/N) > "
+if "%errorLevel%" == "1" (
   set key1=yes
   set key2=00000001
-) else if "%answer%" NEQ "n" goto :question
+)
 timeout /nobreak /t 1 >nul
 
 
