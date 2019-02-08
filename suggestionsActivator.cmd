@@ -70,6 +70,7 @@ cls
 echo.
 echo.
 echo.    [MikronT] ==^> Suggestions Activator
+echo.                  Release v1.0
 echo.   ==========================================
 echo.     See other here:
 echo.         github.com/MikronT
